@@ -9,7 +9,7 @@ const config = {
   title: 'Sample-docs',
   tagline: 'Docusaurus sample docs',
   url: 'https://github.com',
-  baseUrl: '/Docusaurus-sample-docs/',
+  baseUrl: '/docusaurus-demo/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'https://img1.wsimg.com/isteam/ip/6f380b15-78c1-4a0d-9bc4-3e2fa49378cf/favicon/4357e332-a7a0-4da2-8b25-8a7c4a57b9cb.jpg',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Pena', // Usually your GitHub org/user name.
-  projectName: 'Docusaurus-sample-docs', // Usually your repo name.
+  projectName: 'docusaurus-demo', // Usually your repo name.
   deploymentBranch: "gh-pages",
 
   // Even if you don't use internalization, you can use this field to set useful
