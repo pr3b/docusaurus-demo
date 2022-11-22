@@ -8,18 +8,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Sample-docs',
   tagline: 'Docusaurus sample docs',
-  url: 'https://github.com',
-  baseUrl: '/docusaurus-demo',
+  url: 'https://pr3b.github.io', //add
+  baseUrl: '/docusaurus-demo/', //add
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'https://img1.wsimg.com/isteam/ip/6f380b15-78c1-4a0d-9bc4-3e2fa49378cf/favicon/4357e332-a7a0-4da2-8b25-8a7c4a57b9cb.jpg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Pena', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-demo', // Usually your repo name.
-  deploymentBranch: "gh-pages",
-  trailingSlash: false,
+  organizationName: 'pr3b', // Usually your GitHub org/user name. //add
+  projectName: 'docusaurus-demo', // Usually your repo name. //add
+  deploymentBranch: "gh-pages", //add
+  trailingSlash: false, //add
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -72,7 +72,6 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/kakakepan',
             label: 'GitHub',
@@ -92,36 +91,6 @@ const config = {
               },
             ],
           },
-          // {
-          //   title: 'Community',
-          //   items: [
-          //     {
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          //     },
-          //     {
-          //       label: 'Discord',
-          //       href: 'https://discordapp.com/invite/docusaurus',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: 'https://twitter.com/docusaurus',
-          //     },
-          //   ],
-          // },
-          // {
-          //   title: 'More',
-          //   items: [
-          //     {
-          //       label: 'Blog',
-          //       to: '/blog',
-          //     },
-          //     {
-          //       label: 'GitHub',
-          //       href: 'https://github.com/facebook/docusaurus',
-          //     },
-          //   ],
-          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Sample Documentation. Built with Docusaurus.`,
       },
